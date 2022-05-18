@@ -1,6 +1,6 @@
 import random
 
-def numberGuess():
+def number_guess():
     count = 0
     new_player_name = input("Yoo-hoo, what's your name?\n(type in your name) ")
     greeting = print(new_player_name + ", I'm thinking of a number between 1 and 100.")
@@ -19,4 +19,4 @@ def numberGuess():
     if(guess == computer_number):
         print("Congratulations! You guessed my number! It took you", count, "tries!")
 
-numberGuess()
+number_guess()
